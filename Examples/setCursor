@@ -7,7 +7,7 @@ LiquidCrystal lcd(P40, P39, P38, P37, P36, P35);
 int main()
 {
     // set up the LCD's number of columns and rows: 
-    lcd.begin(numCols,numRows);
+    lcd.begin(16,2);
     
     while(1)
     {
