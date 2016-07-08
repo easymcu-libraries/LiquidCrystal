@@ -2,7 +2,7 @@
 
 This library allows an EasyMCU board to control LiquidCrystal displays (LCDs) based on the Hitachi HD44780 (or a compatible) chipset, which is found on most text-based LCDs. This library is ported for EasyMCU from Arduino
 
--->   www.easymcu.ir
+Check [**EasyMCU**](http://easymcu.ir/fa/%D8%B1%D8%A7%D9%87-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-lcd-%DA%A9%D8%A7%D8%B1%D8%A7%DA%A9%D8%AA%D8%B1%DB%8C-%D8%AA%D9%88%D8%B3%D8%B7-easymcu/) for our tutorial and wiring
 
 # License
 
