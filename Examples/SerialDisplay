@@ -1,0 +1,31 @@
+#include "headers.h"
+
+
+// initialize the library with the numbers of the interface pins
+LiquidCrystal lcd(P40, P39, P38, P37, P36, P35);
+
+int main()
+{
+    // set up the LCD's number of columns and rows: 
+    lcd.begin(16, 2);
+    // initialize the serial communications:
+    Serial.begin(9600);
+    
+    while(1)
+    {
+        // when characters arrive over the serial port...
+        if (cdc.available())
+        {
+            // wait a bit for the entire message to arrive
+            delay(100);
+            // clear the screen
+            lcd.clear();
+            // read all the available characters
+            while (cdc.available() > 0)
+            {
+                // display each character to the LCD
+                lcd.write(cdc.read());
+            }
+        }
+    }
+}
