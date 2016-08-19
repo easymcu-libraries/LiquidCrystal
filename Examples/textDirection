@@ -9,6 +9,7 @@ LiquidCrystal lcd(P40, P39, P38, P37, P36, P35);
 
 int main()
 {
+vusb_enable();
 // set up the LCD's number of columns and rows: 
 lcd.begin(16, 2);
 // turn on the cursor:
